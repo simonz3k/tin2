@@ -1,5 +1,6 @@
 # TinTin++
-
+alias tt="tt++ ~/.tt/rc.tin"
+add a .pass file in the .tt director with the user password in it
 ## Required Version
 * TinTin++ version 2.01.90 or higher required
 
