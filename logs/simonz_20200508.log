@@ -1,0 +1,270 @@
+Connecting...[0m
+<Entering 3Scapes.  Enter your character name or press enter to continue>[0m
+Password:[0m
+Your character is currently logged in and linkdead.[0m
+3Scapes welcomes you back from linkdeath.[0m
+> [0m> > > [0m[32;1mFrom afar, Nykki greets you warmly.[0m[0m
+[0m[31;1m<| SPIRITUS MUNDI |>: Zum[0m arrives.[0m
+[0;1;34mAgram shouts:[0m ZUM![0m
+[0mGorgar <Gossip>: mudders. social distancing since 1989.[0m
+[0mGoo <Gossip>: wife claims this is how ive always lived.  she's not wrong[0m
+[0mSpontanius <Gossip>: it's a good life[0m
+[0m[30;1mNight falls swiftly, dark as a raven's wings.[0m[0m
+[0mYou hear a loud whistle in the distance...[0m
+[0m**You've been idle for 2 hours!  See ya!**[0m
+[0m[31;1m<| SPIRITUS MUNDI |>: Simonz[0m has entered a trance of communion.[0m
+[0m#SESSION 'simonz' DIED.[0m
+Connecting...[0m
+<Entering 3Scapes.  Enter your character name or press enter to continue>[0m
+Password:[0m
+Your character is currently logged in and linkdead.[0m
+3Scapes welcomes you back from linkdeath.[0m
+> [0m> > > [0m[0;37msoulhist[0m
+Soul history:[0m
+00:22 : Aelion is afk: Meetings until 12:00 PST[0m
+00:22 : From afar, you nod to Aelion.[0m
+10:28 : From afar, Nykki greets you warmly.[0m
+> [0m[0;37mbow nykki[0m
+[32;1mFrom afar, you bow to Nykki.[0m[0m
+[0m> [0m[0;37mhelp setmod[0m
+[0m  [31m::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::[0m[0m
+[0m  [33;1m                             Topic: Setmod                            [0m[0m
+[0m  [31m::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::[0m[0m
+[0m  [33;1mSYNTAX:[0m setmod <property> <value>[0m
+[0m          setmod ROWS 35[0m
+[0m          setmod COLS 72[0m
+[0m          setmod MAPCOLS 0[0m
+[0m          setmod READER CLEAR[0m
+[0m          setmod SHOWALTS yes[0m
+[0m          setmod TIMEZONE 4[0m
+[0m          setmod TERMCAP CLEAR[0m
+[0m          setmod TELLSELF CLEAR[0m
+[0m    The setmod command allows you to configure the options found[0m
+[0m    in the Modifications Office from anywhere on the mud.[0m
+[0m    Note: You can clear (turn off) an option by typing:[0m
+[0m              setmod <property> CLEAR[0m
+[0m[36;1mMore: 0-19(84) : [q,b,<cr>] [0m[0m
+[0;37mhelp setmod[0m
+[0m  [33;1mOPTIONS:[0m[0m
+[0m    ROWS - This property sets the number of vertical rows your[0m
+[0m      terminal supports.  For example, if you can fit 35 lines[0m
+[0m      of text on your screen without it scrolling off the top[0m
+[0m      you would have 35 vertical rows.  This property is most[0m
+[0m      useful in setting the page breaks when you are in a 'MORE'[0m
+[0m      prompt.[0m
+[0m    COLS - Set the number of columns your terminal should wrap[0m
+[0m      text to.  The mud default is 72.  Partially used at this[0m
+[0m      time, report cases where it should be used more.[0m
+[0m    MAPCOLS - Set the number of columns your terminal should wrap[0m
+[0m      text to for the specific case of the minimap that shows on[0m
+[0m      the right of the room short description.  If set to 0, will[0m
+[0m      use the same value as COLS.  If < 30, show the amp and room[0m
+[0m      short on separate lines.[0m
+[0m    READER - This tells any code that might care to know that[0m
+[0m[36;1mMore: 20-39(84) [q,b,<cr>] [0m[0m
+[0;37mhelp setmod[0m
+[0m      you are visually impaired and using a screen reader.  Anything[0m
+[0m      that is presenting information in an ASCII graphic may consult[0m
+[0m      this property to avoid drawing pictures that readers cannot[0m
+[0m      read.  Plaese note that this ability is new, and not supported[0m
+[0m      in many places yet.  If you encounter ASCII art with this[0m
+[0m      set, or cases where interpreting color is needed, ask politely[0m
+[0m      with 'idea' or other appropriate command to have this checked.[0m
+[0m    SHOWALTS - This says whether your alt characters should be[0m
+[0m      publically available in commands like 'finger'.  CLEAR for the[0m
+[0m      default behavior of no.  'only' specifies a list of chars that[0m
+[0m      are public, 'not' a list of chars that are private, so choose[0m
+[0m      based on whether new chars should be public or not.  This[0m
+[0m      property is shared across all your characters.[0m
+[0m    TERMCAP - This will set your terminal emulation property.[0m
+[0m      This can help ansi emulation and some extra features used[0m
+[0m      in some code, such as screen clearing and cursor movement.[0m
+[0m      Currently, only 2 termcaps are supported: vt100 and vt52.[0m
+[0m[36;1mMore: 40-59(84) [q,b,<cr>] [0m[0m
+[0;37mhelp setmod[0m
+[0m    TIMEZONE - This property will set the time zone you live in.[0m
+[0m      Setting your time zone will show your current local time in[0m
+[0m      the 'time' command, as well as the standard 3S time.[0m
+[0m      You can figure your time zone by calculating the number of[0m
+[0m      hours difference between your time zone and Greenwich Mean[0m
+[0m      Time (GMT).  Normally, 3S's time zone is GMT-5 (i.e. 5 hours[0m
+[0m      earlier than GMT), but it switches to GMT-4 during daylight[0m
+[0m      savings in North America.  If your time zone isn't a whole-[0m
+[0m      number of hours different to GMT (e.g. say you're GMT + 9.5[0m
+[0m      hours), then you can set the minutes as well by placing a colon[0m
+[0m      between the hours and minutes, for example:[0m
+[0m      setmod TIMEZONE 9:30[0m
+[0m    TELLSELF - When the TELLSELF property is set, all of your[0m
+[0m      outgoing tells will be logged to your tellhist along with[0m
+[0m      the normal incoming tells.  This is extremely handy when[0m
+[0m      keeping up with multiple conversations.[0m
+[0m      Example tellhist:[0m
+[0m      To: Leila : What's up?[0m
+[0m      Tulip : Got a sec?[0m
+[0m[36;1mMore: 60-79(84) [q,b,<cr>] [0m[0m
+[0;37mhelp setmod[0m
+[0m      Leila : Nothing much, just catching up on boards.[0m
+[0m      To: Tulip : Sure, shoot.[0m
+[0m      To: Leila : Fun fun fun.[0m
+[0m> [0m[0;37mhelp setmod[0m
+[0m  [31m::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::[0m[0m
+[0m  [33;1m                             Topic: Setmod                            [0m[0m
+[0m  [31m::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::[0m[0m
+[0m  [33;1mSYNTAX:[0m setmod <property> <value>[0m
+[0m          setmod ROWS 35[0m
+[0m          setmod COLS 72[0m
+[0m          setmod MAPCOLS 0[0m
+[0m          setmod READER CLEAR[0m
+[0m          setmod SHOWALTS yes[0m
+[0m          setmod TIMEZONE 4[0m
+[0m          setmod TERMCAP CLEAR[0m
+[0m          setmod TELLSELF CLEAR[0m
+[0m    The setmod command allows you to configure the options found[0m
+[0m    in the Modifications Office from anywhere on the mud.[0m
+[0m    Note: You can clear (turn off) an option by typing:[0m
+[0m              setmod <property> CLEAR[0m
+[0m[36;1mMore: 0-19(84) : [q,b,<cr>] [0m[0m
+[0;37mhelp setmod[0m
+[0m  [33;1mOPTIONS:[0m[0m
+[0m    ROWS - This property sets the number of vertical rows your[0m
+[0m      terminal supports.  For example, if you can fit 35 lines[0m
+[0m      of text on your screen without it scrolling off the top[0m
+[0m      you would have 35 vertical rows.  This property is most[0m
+[0m      useful in setting the page breaks when you are in a 'MORE'[0m
+[0m      prompt.[0m
+[0m    COLS - Set the number of columns your terminal should wrap[0m
+[0m      text to.  The mud default is 72.  Partially used at this[0m
+[0m      time, report cases where it should be used more.[0m
+[0m    MAPCOLS - Set the number of columns your terminal should wrap[0m
+[0m      text to for the specific case of the minimap that shows on[0m
+[0m      the right of the room short description.  If set to 0, will[0m
+[0m      use the same value as COLS.  If < 30, show the amp and room[0m
+[0m      short on separate lines.[0m
+[0m    READER - This tells any code that might care to know that[0m
+[0m[36;1mMore: 20-39(84) [q,b,<cr>] [0m[0m
+[0;37mhelp setmod[0m
+[0m      you are visually impaired and using a screen reader.  Anything[0m
+[0m      that is presenting information in an ASCII graphic may consult[0m
+[0m      this property to avoid drawing pictures that readers cannot[0m
+[0m      read.  Plaese note that this ability is new, and not supported[0m
+[0m      in many places yet.  If you encounter ASCII art with this[0m
+[0m      set, or cases where interpreting color is needed, ask politely[0m
+[0m      with 'idea' or other appropriate command to have this checked.[0m
+[0m    SHOWALTS - This says whether your alt characters should be[0m
+[0m      publically available in commands like 'finger'.  CLEAR for the[0m
+[0m      default behavior of no.  'only' specifies a list of chars that[0m
+[0m      are public, 'not' a list of chars that are private, so choose[0m
+[0m      based on whether new chars should be public or not.  This[0m
+[0m      property is shared across all your characters.[0m
+[0m    TERMCAP - This will set your terminal emulation property.[0m
+[0m      This can help ansi emulation and some extra features used[0m
+[0m      in some code, such as screen clearing and cursor movement.[0m
+[0m      Currently, only 2 termcaps are supported: vt100 and vt52.[0m
+[0m[36;1mMore: 40-59(84) [q,b,<cr>] [0m[0m
+[0;37mhelp setmod[0m
+[0m    TIMEZONE - This property will set the time zone you live in.[0m
+[0m      Setting your time zone will show your current local time in[0m
+[0m      the 'time' command, as well as the standard 3S time.[0m
+[0m      You can figure your time zone by calculating the number of[0m
+[0m      hours difference between your time zone and Greenwich Mean[0m
+[0m      Time (GMT).  Normally, 3S's time zone is GMT-5 (i.e. 5 hours[0m
+[0m      earlier than GMT), but it switches to GMT-4 during daylight[0m
+[0m      savings in North America.  If your time zone isn't a whole-[0m
+[0m      number of hours different to GMT (e.g. say you're GMT + 9.5[0m
+[0m      hours), then you can set the minutes as well by placing a colon[0m
+[0m      between the hours and minutes, for example:[0m
+[0m      setmod TIMEZONE 9:30[0m
+[0m    TELLSELF - When the TELLSELF property is set, all of your[0m
+[0m      outgoing tells will be logged to your tellhist along with[0m
+[0m      the normal incoming tells.  This is extremely handy when[0m
+[0m      keeping up with multiple conversations.[0m
+[0m      Example tellhist:[0m
+[0m[0;37mhelp setmod[0m[0m
+[0;37mhelp setmod[0m
+[0ma : What's up?[0m
+[0m      Tulip : Got a sec?[0m
+[0m[36;1mMore: 60-79(84) [q,b,<cr>] [0m[0m
+[0m      Leila : Nothing much, just catching up on boards.[0m
+[0m      To: Tulip : Sure, shoot.[0m
+[0m      To: Leila : Fun fun fun.[0m
+[0mpIváþ[0m
+[0;37mhelp setmod[0m
+[0m  [31m::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::[0m[0m
+[0m  [33;1m                             Topic: Setmod                            [0m[0m
+[0m  [31m::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::[0m[0m
+[0m  [33;1mSYNTAX:[0m setmod <property> <value>[0m
+[0m          setmod ROWS 35[0m
+[0m          setmod COLS 72[0m
+[0m          setmod MAPCOLS 0[0m
+[0m          setmod READER CLEAR[0m
+[0m          setmod SHOWALTS yes[0m
+[0m          setmod TIMEZONE 4[0m
+[0m          setmod TERMCAP CLEAR[0m
+[0m          setmod TELLSELF CLEAR[0m
+[0m    The setmod command allows you to configure the options found[0m
+[0m    in the Modifications Office from anywhere on the mud.[0m
+[0m    Note: You can clear (turn off) an option by typing:[0m
+[0m              setmod <property> CLEAR[0m
+[0m[36;1mMore: 0-19(84) : [q,b,<cr>] [0m[0m
+[0;37mhelp setmod[0m
+[0m  [33;1mOPTIONS:[0m[0m
+[0m    ROWS - This property sets the number of vertical rows your[0m
+[0m      terminal supports.  For example, if you can fit 35 lines[0m
+[0m      of text on your screen without it scrolling off the top[0m
+[0m      you would have 35 vertical rows.  This property is most[0m
+[0m      useful in setting the page breaks when you are in a 'MORE'[0m
+[0m      prompt.[0m
+[0m    COLS - Set the number of columns your terminal should wrap[0m
+[0m      text to.  The mud default is 72.  Partially used at this[0m
+[0m      time, report cases where it should be used more.[0m
+[0m    MAPCOLS - Set the number of columns your terminal should wrap[0m
+[0m      text to for the specific case of the minimap that shows on[0m
+[0m      the right of the room short description.  If set to 0, will[0m
+[0m      use the same value as COLS.  If < 30, show the amp and room[0m
+[0m      short on separate lines.[0m
+[0m    READER - This tells any code that might care to know that[0m
+[0m[36;1mMore: 20-39(84) [q,b,<cr>] [0m[0m
+[0;37mhelp setmod[0m
+[0m      you are visually impaired and using a screen reader.  Anything[0m
+[0m      that is presenting information in an ASCII graphic may consult[0m
+[0m      this property to avoid drawing pictures that readers cannot[0m
+[0m      read.  Plaese note that this ability is new, and not supported[0m
+[0m      in many places yet.  If you encounter ASCII art with this[0m
+[0m      set, or cases where interpreting color is needed, ask politely[0m
+[0m      with 'idea' or other appropriate command to have this checked.[0m
+[0m    SHOWALTS - This says whether your alt characters should be[0m
+[0m      publically available in commands like 'finger'.  CLEAR for the[0m
+[0m      default behavior of no.  'only' specifies a list of chars that[0m
+[0m      are public, 'not' a list of chars that are private, so choose[0m
+[0m      based on whether new chars should be public or not.  This[0m
+[0m      property is shared across all your characters.[0m
+[0m    TERMCAP - This will set your terminal emulation property.[0m
+[0m      This can help ansi emulation and some extra features used[0m
+[0m      To: Leil>       in some code, such as screen clearing and cursor movement.[0m
+[0m      Currently, only 2 termcaps are supported: vt100 and vt52.[0m
+[0m[36;1mMore: 40-59(84) [q,b,<cr>] [0m[0m
+[0;37mq[0m
+[0m> [0m[0mForce arrives.[0m
+[0mForce leaves west.[0m
+[0mYou see a flock of buzzards fly over and descend upon the tattered[0m
+[0mcorpse of [36;1mAelon[0m, courtesy of [33;1mSnake[0m.  The buzzards feed[0m
+[0mlike piranhas and leave a shattered skeleton in their wake...[0m
+[0mForce arrives.[0m
+[0mForce leaves northeast.[0m
+[0mYou see the Grim Reaper drift over to the corpse of [36;1mAelon[0m.  The[0m
+[0mdark wraith expresses gratitude to [33;1mSmelly Smurf[0m for providing[0m
+[0mit with the priestess's soul.[0m
+[0m[31;1m<| SPIRITUS MUNDI |>: Force[0m has entered a trance of communion.[0m
+[0m[30;1mNight falls swiftly, dark as a raven's wings.[0m[0m
+[0;37mhp[0m
+[0mHP:[31;1m82[0m/[31m82[0m SP:[34;1m97[0m/[34m97[0m A:[33;1m1540[0m/[33m1540[0m MIS:0% E:[37;1m[0m(0)[0m
+[0mSM:[36;1mAwake    [0m C:[33m100%[0m [[36mAutumn[0m|[36mDay[0m(55%)|[36mFull Moon[0m(33%)] BE:1  B:dry EFF: H: AS:90% G2N:  0.00%(Nascent)[0m
+[0m> [0m[0mYou are spun into the cycle of blood and fate once more.[0m
+[0m[31;1m<| SPIRITUS MUNDI |>: Nykki[0m has entered a trance of communion.[0m
+[0mYou see the Grim Reaper drift over to the corpse of [36;1mMichael[0m. [0m
+[0mThe dark wraith expresses gratitude to [33;1mA Healthy Fox[0m for[0m
+[0mproviding it with the angel's soul.[0m
+[0m[33;1mThe sun rises, spreading glorious illumination.[0m[0m
+[0m**You've been idle for 2 hours!  See ya!**[0m
+[0m[31;1m<| SPIRITUS MUNDI |>: Simonz[0m has entered a trance of communion.[0m
+[0m#SESSION 'simonz' DIED.[0m

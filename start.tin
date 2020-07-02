@@ -1,0 +1,25 @@
+#NOP
+/* Load Common Files */
+#read .tt/aliases.tin
+#read .tt/graph.tin
+
+#alias {load3k} {
+	#read .tt/3k/vars.tin;
+	#read .tt/3k/aliases.tin;
+	#read .tt/3k/ansi.tin;
+	#read .tt/3k/assemble.tin;
+	#read .tt/3k/bots/bot_cycle.tin;
+	#read .tt/3k/bots/bot_load.tin;
+	#read .tt/3k/gag.tin;
+	#read .tt/3k/mapper.tin;
+	#read .tt/3k/mip.tin;
+	#read .tt/3k/miphp.tin;
+	#read .tt/3k/mob_monitors.tin;
+	#read .tt/3k/trigs.tin;
+	#read .tt/3k/draw.tin
+}
+#if {"$world" != ""} {
+	#regex {$world} {AW} {} {load3k}
+}
+
+#sub {~\t} {       }
